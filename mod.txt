@@ -1,0 +1,15 @@
+{
+	"name":	"Infinite Doctor Bag",
+	"description":	"Makes the doctor bag equipment bottomless/infinite",
+	"author":	"Pyrosyphon",
+	"contact":	"https://next.nexusmods.com/profile/Pyrosyphon",
+	"version":	"1.0",
+    "blt_version": 2,
+	"priority":	"1000",
+	"hooks": [
+		{
+			"hook_id" : "lib/units/equipment/doctor_bag/doctorbagbase",
+			"script_path": "bottomlessdoctorbag.lua"
+		}
+	]
+}
